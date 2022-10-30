@@ -1,0 +1,211 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="itsaka.css">
+<head>
+    <header><h1>Indianflix</h1></header>
+    <div class="head">class</div>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="num1">
+        <img src="rachna.jpg" width="300px" height="270px">
+            <p>Rêve de jouvence</p>
+            <p>Saison1-2</p>
+            <p>5000ar</p>
+            <button class="rouge">Voir l'élément</button>
+            <button class="bleu">Acheter</button>
+    </div>
+    
+    <div id="num1">
+        <img src="gunjan.jpg" width="300px" height="270px">
+        <p>Rêve de jouvence</p>
+        <p>Saison3-4</p>
+        <p>5000ar</p>
+        <button class="rouge">Voir l'élément</button>
+        <button class="bleu">Acheter</button>
+    </div>
+    <div id="num1">
+        <img src="mayank.jpg" width="300px" height="270px">
+        <p>Rêve de jouvence</p>
+        <p>Saison5-7</p>
+        <p>6000ar</p>
+        <button class="rouge">Voir l'élément</button>
+        <button class="bleu">Acheter</button>
+    </div>
+    
+    <div id="num1">
+        <img src="maya1.jpg" width="300px" height="270px">
+        <p>Amour illimiter</p>
+        <p>Saison1</p>
+        <p>7000ar</p>
+        <button class="rouge">Voir l'élément</button>
+        <button class="bleu">Acheter</button>
+    </div>
+
+    <div id="num1">
+        <img src="maya4.jpg" width="300px" height="270px">
+        <p>Amour illimiter</p>
+        <p>Saison2</p>
+        <p>7000ar</p>
+        <button class="rouge">Voir l'élément</button>
+        <button class="bleu">Acheter</button>
+    </div>
+
+    <div id="num1">
+        <img src="maya.jpg" width="300px" height="270px">
+        <p>Amour illimiter</p>
+        <p>Saison3</p>
+        <p>7000ar</p>
+        <button class="rouge">Voir l'élément</button>
+        <button class="bleu">Acheter</button>
+    </div>
+
+    <div id="num1">
+        <img src="abip.jpg" width="300px" height="290px">
+        <p>Kumkum bhagya</p>
+        <p>Saison2-4</p>
+        <p>12000ar</p>
+        <button class="rouge">Voir l'élément</button>
+        <button class="bleu">Acheter</button>
+    </div>
+
+    <div id="num1">
+        <img src="boul.jpg" width="300px" height="290px">
+        <p>Kumkum bhagya</p>
+        <p>Saison1</p>
+        <p>12000ar</p>
+        <button class="rouge">Voir l'élément</button>
+        <button class="bleu">Acheter</button>
+    </div>
+
+
+    <div id="num1">
+        <img src="prachi1.jpg" width="300px" height="290px">
+        <p>Kumkum bhagya</p>
+        <p>Saison5</p>
+        <p>12000ar</p>
+        <button class="rouge">Voir l'élément</button>
+        <button class="bleu">Acheter</button>
+    </div>
+    
+    <div id="num1">
+        <img src="tuaashiqui2.jpg" width="300px" height="290px">
+        <p>Tu aashiqui</p>
+        <p>Saison1</p>
+        <p>15000ar</p>
+        <button class="rouge">Voir l'élément</button>
+        <button class="bleu">Acheter</button>
+    </div>
+
+    <div id="num1">
+        <img src="tuaashiqui1.jpg" width="300px" height="290px">
+        <p>Tu aashiqui</p>
+        <p>Saison2</p>
+        <p>15000ar</p>
+        <button class="rouge">Voir l'élément</button>
+        <button class="bleu">Acheter</button>
+    </div>
+
+    <div id="num1">
+        <img src="tuaashiqui.jpg" width="300px" height="290px">
+        <p>Tu aashiqui</p>
+        <p>Saison3</p>
+        <p>15000ar</p>
+        <button class="rouge">Voir l'élément</button>
+        <button class="bleu">Acheter</button>
+    </div>
+</body>
+</html>
+
+CSS
+
+.rouge{
+    background-color: lightcoral;
+}
+.bleu{
+    background-color: aqua;
+}
+button{
+    border-radius: 5px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+div:hover{ 
+    border-width: 50px solid gray;
+}
+.rouge:hover{
+border: 2px solid black;
+}
+.bleu:hover{
+    border: 2px solid black;
+}
+div{
+    border: 2px solid gray;
+    height: 450px;
+    width: 100%;
+    border-radius: 20px;
+}
+div{
+    margin: 5px;
+}
+div{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom:10px ;
+    background-color: beige;
+}
+#num1:hover{
+    background-color:bisque ;
+    box-shadow: 100px;
+    border-width: 3px;
+    border-radius: 25px;
+}
+body{
+    display: flex;
+    justify-content: end;
+}
+
+
+#num1{
+    flex-basis: 160px;
+}
+/*flex ambany*/
+/* tableau anatiny*/
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    width: 100%;
+    background:linear-gradient(130deg,beige,red,yellow) ;
+    height: 100%;
+}
+header{
+    width: 100%;
+    border: 2px solid;
+    height: 100px;
+    background:linear-gradient(130deg,beige,red,yellow) ;
+
+}
+h1{
+    padding: 10px;
+    padding-left: 300px;
+}
+.head{
+    width: 150px;
+    height: 100%;
+}
+
